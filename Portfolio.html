@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #1D2951;
+            width: 100%;
+            align-items: center;
+            height: 80px;
+            display: flex;
+            color: white;
+            gap: 15px;
+            cursor: pointer;
+        }
+
+        .left-side {
+            height: 60px;
+            width: 60px;
+            margin-top: 5px;
+            margin-left: 100px;
+            background-color: white;
+            color: #1D2951;
+            border-radius: 50%;
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            font-weight: bold;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .left-content {
+            margin-right: auto;
+            margin-top: 15px;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+
+        .header-link a {
+            margin: auto 15px;
+            color: white;
+            text-decoration: none;
+            line-height: medium;
+            cursor: pointer;
+        }
+
+        .header-link :hover {
+            text-decoration: underline;
+        }
+
+        .header-link button {
+            margin: 25px 15px;
+            height: 30px;
+            width: 100px;
+            color: white;
+            border-radius: 5px;
+            border: 2px solid skyblue;
+            cursor: pointer;
+            background-color: #1D2951;
+        }
+
+        main {
+            background-color: #1d4066;
+            width: 100%;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            /* horizontal center */
+            align-items: center;
+            /* vertical center */
+            color: #E0E0E0;
+        }
+
+        .middle-section {
+            text-align: center;
+        }
+
+        .middle-section h1 {
+            font-size: 45px;
+        }
+
+        .middle-section h3 {
+            font-size: 30px;
+        }
+
+        .middle-section h3,
+        .middle-section h1,
+        .middle-section h4 {
+            margin: 8px 0;
+        }
+
+        .Middle2-section {
+            background-color: silver;
+            height: 250px;
+            width: 800px;
+            text-align: center;
+            margin: 50px 400px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .Middle2-section h3 {
+            margin: 0;
+            padding: 20px 0;
+            font-size: 20px;
+        }
+
+        .Middle2-section p {
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            width: 100%;
+            cursor: pointer;
+            height: 80px;
+            color: white;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="left-side"> AP </div>
+            <span class="left-content"> Student </span>
+            <div class="header-link">
+                <a href=""> Home</a>
+                <a href=""> About </a>
+                <a href=""> Skills </a>
+                <a href=""> Experience </a>
+                <a href=""> Projects </a>
+                <a href="">Testimonials </a>
+                <button> Hire Me</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="middle-section">
+            <h3>Hi, I'm</h3>
+            <h1>AYSHA PUNDEER</h1>
+            <h4>Student | Passionate about Web Development</h4>
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/007/486/093/small_2x/portrait-of-happy-redhaired-woman-employee-in-optical-glasses-has-satisfied-expression-works-with-modern-gadgets-waits-for-meeting-with-colleague-prepares-accounting-report-sits-in-own-cabinet-free-photo.jpg"
+                alt="" height="100px" width="100px" style="border-radius: 50%;">
+        </div>
+    </main>
+
+    <section>
+        <div class="Middle2-section">
+            <h3> About me </h3>
+            <p>My name is Aysha Pundeer, and I am a 3rd-year student passionate about web development. <br>I enjoy
+                creating
+                clean, responsive, and user-friendly websites. <br> My goal is to become a skilled web developer in a
+                reputed company where I can learn, grow, and contribute through my work. <br>
+                I am hardworking, motivated, and always eager to explore new technologies. <br> I love solving problems
+                and improving my coding skills every day.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <p><i class="fa-solid fa-user"></i> 2025 AYSHA PUNDEER | Student </p>
+            <i class="fa-solid fa-link"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </footer>
+</body>
+</html>
